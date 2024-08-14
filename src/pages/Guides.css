@@ -1,0 +1,38 @@
+.guides {
+    padding: 20px;
+    margin-top:0px ;
+    text-align: center;
+    background-image: url('https://www.torbitconsulting.com/wp-content/uploads/2024/03/Eco-Friendly-Decor.jpg');
+    background-size: cover;
+    height: 70vh;
+}
+
+.guides h2 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #0073e6;
+}
+
+.guides ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.guides li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+    padding: 10px;
+    margin-left: 24%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.guides li:hover {
+    transform: translateY(-5px);
+    background-color: lightblue;
+}
+

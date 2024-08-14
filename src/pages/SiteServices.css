@@ -1,0 +1,37 @@
+.site-services {
+    padding: 20px;
+    text-align: center;
+    height: 70vh;
+    background-image: url('https://locus.sh/assets/img/infographic/popular-home-services-usa/new-banner.png');
+    background-size: cover;
+}
+
+.site-services h2 {
+    font-size: 2.5em;
+    color: #ffa500;
+    margin-top: 0px;
+}
+
+.site-services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-services li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 39%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+
+.site-services li:hover {
+    transform: translateY(-5px);
+    background-color: lightpink;
+}

@@ -1,0 +1,41 @@
+.reviews {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://plus.unsplash.com/premium_photo-1682310144714-cb77b1e6d64a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3VzdG9tZXIlMjByZXZpZXdzfGVufDB8fDB8fHww');
+    background-size: cover;
+}
+
+.reviews h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-item {
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-item p {
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.review-item span {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+    font-style: italic;
+}

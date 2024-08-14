@@ -1,0 +1,37 @@
+.cities {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://j.gifs.com/mwWB50@large.gif?download=true');
+    height: 75vh;
+    background-size: cover;
+}
+.cities h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color:white;
+}
+.cities ul {
+    list-style-type: none;
+    padding: 0;
+}
+.cities li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #000000;
+    padding: 10px;
+    background-color: #e0f7fa;
+    opacity: 0.7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 40%;
+    margin-left: 30%;
+    font-weight: bold;
+
+}
+
+.cities li:hover {
+    transform: translateY(-5px);
+    background-color: yellow;
+    color: red;
+}

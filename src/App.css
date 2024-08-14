@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  padding: 20px;
+  position: fixed;
+}
+
+.home .left, .home .center, .home .right {
+  flex: 1;
+  margin: 10px;
+}
+
+.home .left img {
+  width: 100%;
+  height: auto;
+}
+
+.home .center p {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.home .right input, .home .right form input, .home .right form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+/* Submit Blog Idea Styles */
+.submit-blog-idea {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit-blog-idea h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.submit-blog-idea label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.submit-blog-idea input, .submit-blog-idea textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.center{
+  margin-bottom: 100vh;
+}
+.submit-blog-idea button {
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-blog-idea button:hover {
+  background-color: #005bb5;
+}
+
+.submit-blog-idea p {
+  margin-top: 20px;
+  font-size: 1em;
+  color: green;
+}

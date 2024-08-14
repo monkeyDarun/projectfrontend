@@ -1,0 +1,12 @@
+.static-icon {
+    position: fixed;
+    top: 60%; /* Adjust as needed */
+    left: 84%; /* Adjust as needed */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.static-icon img {
+    width: 250px; /* Adjust as needed */
+    height: 250px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,39 @@
+.more {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.more h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+.more-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aa{
+    position:fixed;bottom:45px;right:5px;z-index:100
+}
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #666;
+}

@@ -1,0 +1,52 @@
+.all-blogs-container {
+    padding: 20px;
+    margin: 0 auto;
+    background-image: url('https://www.centuryply.com/assets/img/blog/25-08-22/blog-30.jpg');
+    background-size: cover;
+    width: 97.5%;
+}
+
+
+.all-blogs-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.blogs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 31%;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.bb{
+    margin-left: 100px;
+}
+
+.blog-card h2 {
+    margin-bottom: 10px;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+.blog-card p {
+    margin-bottom: 10px;
+    color: #555;
+    text-align: center;
+}
+
+.blog-card em {
+    font-size: 0.9em;
+    text-align: center;
+    color: #828282;
+}

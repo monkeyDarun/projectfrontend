@@ -1,0 +1,68 @@
+/* Full-page container */
+.submit-idea-blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-image: url('https://media.designcafe.com/wp-content/uploads/2020/08/01105453/diy-wall-hanging.jpg');
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+/* Heading styling */
+.submit-idea-blog-container h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #9c0c13;
+}
+
+/* Form styling */
+.submit-idea-blog-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #cf8f53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #dab18b;
+}
