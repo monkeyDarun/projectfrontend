@@ -18,17 +18,17 @@ const Navbar = () => {
                     </ul> */}
                 </li>
                 {/* <li className="nav-item"><a href="/projects">Recent Projects</a></li> */}
-                <li className="nav-item"><a href="/reviews">Reviews</a></li>
-                <li className="nav-item"><a href="/services">Site Services</a></li>
+                <li className="nav-item"><Link to={"/reviews"}>Reviews</Link></li>
+                <li className="nav-item"><Link to={"/services"}>Site Services</Link></li>
                 <li className="nav-item dropdown">
-                    <a href="#">More</a>
+                    <Link to={"#"}>More</Link>
                     <ul className="dropdown-menu">
-                        <li><a href="/guides">Guides</a></li>
-                        <li><a href="/guides/cities">Cities</a></li>
-                        <li><a href="/guides/more">More</a></li>
+                        <li><Link to={"/guides"}>Guides</Link></li>
+                        <li><Link to={"/guides/cities"}>Cities</Link></li>
+                        <li><Link to={"/guides/more"}>More</Link></li>
                     </ul>
                 </li>
-                <li className="nav-item"><a href="/submit-idea">Submit Idea Blog</a></li>
+                <li className="nav-item"><Link to={"/submit-idea"}>Submit Idea Blog</Link></li>
             </ul>
         </nav>
     );
