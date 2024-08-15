@@ -10,7 +10,7 @@ const AllBlogs = () => {
     // Async function to fetch blog data
     const fetchBlogs = async () => {
         try {
-            const response = await axios.get('http://localhost:8000/api/blogs');
+            const response = await axios.get('https://projectbackend-k5s4.onrender.com/api/blogs');
             setBlogs(response.data);
         } catch (error) {
             setError('Error fetching blogs');

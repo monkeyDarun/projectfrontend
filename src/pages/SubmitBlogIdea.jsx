@@ -20,7 +20,7 @@ const SubmitIdeaBlog = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        axios.post('http://localhost:8000/api/submit-idea', formData)
+        axios.post('https://projectbackend-k5s4.onrender.com/api/submit-idea', formData)
             .then(response => {
                 setMessage(response.data.message);
                 setFormData({ title: '', author: '', content: '' });
