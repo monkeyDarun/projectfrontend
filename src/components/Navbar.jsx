@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className="navbar">
@@ -10,7 +10,7 @@ const Navbar = () => {
             </div>
             <ul className="nav-links">
                 <li className="nav-item dropdown">
-                    <a href="/gallery">Design Gallery</a>
+                    <Link to={"/gallery"}>Design Gallery</Link>
                     {/* <ul className="dropdown-menu">
                         <li><a href="/gallery">Design 1</a></li>
                         <li><a href="/gallery">Design 2</a></li>
